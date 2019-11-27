@@ -6,7 +6,7 @@ class CustomersController < ApplicationController
   end
 
   def upload
-
+    LeadsWorker.perform()
     redirect_to customers_path
   end
 
