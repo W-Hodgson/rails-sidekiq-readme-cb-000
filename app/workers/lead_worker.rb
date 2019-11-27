@@ -1,0 +1,3 @@
+class LeadsWorker
+
+end
